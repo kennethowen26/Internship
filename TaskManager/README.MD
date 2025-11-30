@@ -1,7 +1,5 @@
-# Simple Task Manager API
-
-RESTful API untuk mengelola task (CRUD) dengan validasi input, filter & search, menggunakan Node.js + Express + MongoDB (Mongoose).
-
+#Task Manager
+RESTful API untuk mengelola task dengan validasi dan logic pemrograman
 ---
 
 ## Daftar Isi
@@ -24,20 +22,20 @@ RESTful API untuk mengelola task (CRUD) dengan validasi input, filter & search, 
 ---
 
 ## Fitur
-- Membuat task baru (judul, deskripsi, status, prioritas, tenggat waktu)
-- Melihat daftar task dengan filter status & search keyword
+- Membuat task baru (judul, deskripsi, status, priority)
+- Melihat daftar task 
 - Melihat detail task berdasarkan ID
 - Mengupdate task (semua field dapat diubah)
 - Menghapus task
 - Validasi input lengkap & error handling terpusat
-- Timestamp otomatis (`created_at`, `updated_at`)
+- Timestamp otomatis ('created_at', 'updated_at')
 
 ---
 
 ## Tech Stack
 - **Runtime**: Node.js (≥ 18)
 - **Framework**: Express.js
-- **Database**: MongoDB (lokal atau MongoDB Atlas)
+- **Database**: MongoDB 
 - **ODM**: Mongoose
 - **Dependency**: dotenv
 
@@ -47,10 +45,4 @@ RESTful API untuk mengelola task (CRUD) dengan validasi input, filter & search, 
 - MongoDB berjalan (lokal `mongodb://localhost:27017` atau URI Atlas)
 - Node.js ≥ 18 terpasang
 
----
 
-## Instalasi
-1. Clone / salin project
-   ```bash
-   git clone &lt;url-repo&gt;.git
-   cd task-manager

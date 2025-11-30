@@ -37,5 +37,17 @@ npm run dev
 ``` 
 ---
 
-**Note**: The .env file contains my MongoDB URI.  
-Replace MONGODB_URI with your own connection string before running the project.
+**Note**: Create your own .env file with PORT and MONGODB_URI before starting. 
+
+--- 
+## Quick Test (Insomnia) 
+
+POST `http://localhost:3000/tasks`  
+Body → JSON:
+```json
+{
+  "title": "First Task",
+  "description": "Make a new task",
+  "priority": 3,
+  "due_date": "2025-12-04T00:00:00.000Z"
+}

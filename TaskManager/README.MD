@@ -26,5 +26,13 @@ RESTful API for task management featuring CRUD operations, input validation, and
 
 ## Installation 
 
+## Installation
 
+Clone the repository:
+
+```bash
+git clone https://github.com/kennethowen26/Internship.git
+cd Internship/TaskManager
+
+npm install
 

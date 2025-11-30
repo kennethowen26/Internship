@@ -1,34 +1,15 @@
 #Task Manager
-RESTful API untuk mengelola task dengan validasi dan logic pemrograman
----
-
-## Daftar Isi
-- [Fitur](#fitur)
-- [Tech Stack](#tech-stack)
-- [Persyaratan](#persyaratan)
-- [Instalasi](#instalasi)
-- [Environment Variables](#environment-variables)
-- [Struktur Project](#struktur-project)
-- [Endpoint](#endpoint)
-  - [1. Create Task](#1-create-task)
-  - [2. Get All Tasks](#2-get-all-tasks)
-  - [3. Get Task by ID](#3-get-task-by-id)
-  - [4. Update Task](#4-update-task)
-  - [5. Delete Task](#5-delete-task)
-- [Validasi & Error Handling](#validasi--error-handling)
-- [Contoh Penggunaan (cURL)](#contoh-penggunaan-curl)
-- [ Lisensi](#lisensi)
-
+RESTful API for task management featuring CRUD operations, input validation, and business logic.
 ---
 
 ## Fitur
-- Membuat task baru (judul, deskripsi, status, priority)
-- Melihat daftar task 
-- Melihat detail task berdasarkan ID
-- Mengupdate task (semua field dapat diubah)
-- Menghapus task
-- Validasi input lengkap & error handling terpusat
-- Timestamp otomatis ('created_at', 'updated_at')
+- Create new tasks (title,description,status, priority)
+- View a list of all task
+- View task details by ID
+- Update tasks (all fields are editable)
+- Delete Task 
+- Input validation & error handling
+- automatic timestamps ('created_at', 'updated_at')
 
 ---
 
@@ -38,11 +19,11 @@ RESTful API untuk mengelola task dengan validasi dan logic pemrograman
 - **Database**: MongoDB 
 - **ODM**: Mongoose
 - **Dependency**: dotenv
+- **Testing**: Insomnia
 
 ---
 
-## Persyaratan
-- MongoDB berjalan (lokal `mongodb://localhost:27017` atau URI Atlas)
-- Node.js ≥ 18 terpasang
+## Installation 
+
 
 

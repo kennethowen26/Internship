@@ -3,7 +3,7 @@
 ### RESTful API for task management featuring CRUD operations, input validation, and business logic.
 ---
 
-## Fitur
+## Feature
 - Create new tasks (title,description,status, priority)
 - View a list of all task
 - View task details by ID

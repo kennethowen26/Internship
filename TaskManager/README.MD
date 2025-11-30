@@ -52,3 +52,23 @@ Body → JSON:
   "priority": 3,
   "due_date": "2025-12-04T00:00:00.000Z"
 }
+
+### Get All Task 
+GET `http://localhost:3000/tasks/`
+
+### Get Task by ID
+GET `http://localhost:3000/tasks/(ID)`
+
+### Update Task by ID
+PUT `http://localhost:3000/tasks/(ID)`
+Body → JSON:
+```json
+{
+  "title": "Second Task",
+  "description": "Update Task",
+  "priority": 2,
+  "due_date": "2025-12-04T00:00:00.000Z"
+}
+
+### Delete Task by ID 
+DELETE `http://localhost:3000/tasks/(ID)`

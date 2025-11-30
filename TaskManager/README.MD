@@ -26,8 +26,6 @@
 
 ## Installation 
 
-## Installation
-
 Clone the repository:
 
 ```bash
@@ -35,4 +33,8 @@ git clone https://github.com/kennethowen26/Internship.git
 cd Internship/TaskManager
 
 npm install
+npm run dev
+``` 
+---
 
+## Note : .env in this file was mine MongoDB, change to your own MongoDBURL

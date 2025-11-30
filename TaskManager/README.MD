@@ -37,5 +37,5 @@ npm run dev
 ``` 
 ---
 
-**Note**: The `.env` file contains my MongoDB URI.  
-Replace `MONGODB_URI` with your own connection string (local or Atlas) before running the project.
+**Note**: The .env file contains my MongoDB URI.  
+Replace MONGODB_URI with your own connection string before running the project.
